@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    <div id="main">
       
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <a class="navbar-brand" href="#">DP</a>
@@ -24,10 +23,10 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
+              <a class="nav-link" href="#main-content">About</a>
+            </li>s
             <li class="nav-item">
-              <a class="nav-link" href="#">Certifications</a>
+              <a class="nav-link" href="#education">Education</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#connect">Contact</a>
@@ -38,9 +37,9 @@
       
       <div class="container" id="main-content" style="margin-top:30px">
         <div class="row">
-            <div class="col-sm-6">
+            <div style="padding-top: 10%" class="col-sm-6">
                 <h1>Hi, I'm Dharini Pargunan</h1><br/>
-                <p><i>Masters in Applied Engineering, Data science, SUNY Buffalo, NY, USA</i></p><br/>
+                <h5><i>Data Scientist | Data Analyst | Machine Learning Engineer</i></h5><br/>
                 <a target="_blank" href="resume.pdf" download="dhar-resume">
                 <button type="button" class="btn btn-info">Download Resume</button></a>
                 <a href="#connect">
@@ -51,7 +50,7 @@
             </div>
         </div>
         <div class="row" >
-            <div class="col-sm-4">
+            <div class="col-sm-4" style="padding-top: 10%">
                 <h3>Key Skills</h3>
                 <ul class="list-group list-group-flush" style="list-style-type:none;">
                     <li class="list-group-item"><img src="python.png" width="50px" height="50px" class="rounded float-left" alt="python">
@@ -98,6 +97,23 @@
       </div>
 
     </div>
+
+	<div id="education" class="jumbotron text-center" style="margin-bottom:0;height: 100%; background-color:#212529;">
+        	<h3 style="padding-top: 10%; color: white;">Education</h3><br/>
+        	<h4 style="color: white">Masters in Applied Engineering, Data science</h4>
+		<h5 style="color: white">University at Buffalo, New York, USA</h5>
+		<h5 style="color: white">CGPA: 3.85</h5>
+		<p style="color: white"><i>August 2021 - December 2022</i></p>
+
+		<br/><br/><br/>
+
+        	<h4 style="color: white">Bachelors in Information Technology</h4>
+		<h5 style="color: white">Anna University, Chennai, India </h5>
+		<h5 style="color: white">CGPA: 3.12</h5>
+		<p style="color: white"><i>August 2013 - May 2017</i></p>
+            
+		<a href="#main-content" style="margin-top: 5%;><button type="button" class="btn btn-info">Back to Home</button></a>
+      </div>
       
       <div id="connect" class="jumbotron text-center" style="margin-bottom:0;height: 100%; background-color:#212529;">
         <h3 style="padding-top: 10%; color: white;">Connect with me!</h3><br/>
@@ -112,7 +128,7 @@
         ></a>
         <a class="btn btn-primary" style="background-color: #333333;" target="_blank" href="mailto:dharinipargunan0995@gmail.com" role="button"
         ><i class="fas fa-envelope fa-2x"></i></a> <br><br>
-        <a href="#main">
+        <a href="#main-content">
             <button type="button" class="btn btn-info">Back to Home</button></a>
       </div>
 
